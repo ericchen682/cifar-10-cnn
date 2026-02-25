@@ -1,5 +1,12 @@
 # cifar-10-cnn
-A convolutional neural network trained for image classification on the CIFAR-10 dataset.
+a convolutional neural network trained for image classification on the cifar-10 dataset
+
+## results
+pre-training accuracy: 10.41%<br>
+after 10 epochs: 79.3%
+
+confusion matrix:<br>
+![Confusion Matrix](cifar10confusionmatrix.png)
 
 ### python libraries used:
 - pytorch
@@ -15,3 +22,6 @@ A convolutional neural network trained for image classification on the CIFAR-10 
 - activation function (relu)
 - max pooling
 - dropout
+- momentum-based gradient descent
+- backpropogation
+- cross entropy loss function
